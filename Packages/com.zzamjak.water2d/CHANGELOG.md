@@ -5,6 +5,12 @@
 포맷은 [Keep a Changelog](https://keepachangelog.com/ko/1.1.0/)를 따르며,
 버전은 [Semantic Versioning](https://semver.org/lang/ko/)을 따릅니다.
 
+## [1.0.3] - 2026-08-23
+
+### Fixed
+
+- OpenUPM 태그 배포 검증 워크플로를 릴리스 태그에 포함해, `NOTICE.md.meta` 수정본을 새 패키지 버전으로 확실히 색인할 수 있게 했습니다.
+
 ## [1.0.2] - 2026-08-23
 
 ### Fixed

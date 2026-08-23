@@ -51,7 +51,7 @@ openupm add com.zzamjak.water2d
     }
   ],
   "dependencies": {
-    "com.zzamjak.water2d": "1.0.2"
+    "com.zzamjak.water2d": "1.0.3"
   }
 }
 ```
@@ -63,17 +63,17 @@ openupm add com.zzamjak.water2d
 3. 아래 URL을 입력하고 `Install` 을 누릅니다.
 
 ```
-https://github.com/zzamjak-cloud/Water2D.git?path=/Packages/com.zzamjak.water2d#v1.0.2
+https://github.com/zzamjak-cloud/Water2D.git?path=/Packages/com.zzamjak.water2d#v1.0.3
 ```
 
-`#v1.0.2` 를 생략하면 `main` 브랜치의 최신 상태를 가져옵니다.
+`#v1.0.3` 을 생략하면 `main` 브랜치의 최신 상태를 가져옵니다.
 
 ### 3. manifest.json 직접 편집 (Git)
 
 ```json
 {
   "dependencies": {
-    "com.zzamjak.water2d": "https://github.com/zzamjak-cloud/Water2D.git?path=/Packages/com.zzamjak.water2d#v1.0.2"
+    "com.zzamjak.water2d": "https://github.com/zzamjak-cloud/Water2D.git?path=/Packages/com.zzamjak.water2d#v1.0.3"
   }
 }
 ```

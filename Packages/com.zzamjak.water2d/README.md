@@ -29,7 +29,7 @@ openupm add com.zzamjak.water2d
 또는 Package Manager 의 `Install package from git URL...` 에 아래를 입력합니다.
 
 ```
-https://github.com/zzamjak-cloud/Water2D.git?path=/Packages/com.zzamjak.water2d#v1.0.2
+https://github.com/zzamjak-cloud/Water2D.git?path=/Packages/com.zzamjak.water2d#v1.0.3
 ```
 
 ## 빠른 사용법
