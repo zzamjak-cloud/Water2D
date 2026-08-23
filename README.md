@@ -1,7 +1,7 @@
 # Water2D
 
 [![openupm](https://img.shields.io/npm/v/com.zzamjak.water2d?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.zzamjak.water2d/)
-[![license](https://img.shields.io/badge/license-MIT-blue.svg)](Packages/com.zzamjak.water2d/LICENSE.md)
+[![license](https://img.shields.io/badge/license-GPL--3.0--only-blue.svg)](Packages/com.zzamjak.water2d/LICENSE.md)
 
 버텍스 기반 2D 물 시뮬레이션 Unity 패키지입니다. 모바일 게임 최적화를 최우선으로 설계했습니다.
 
@@ -628,4 +628,6 @@ iOS Metal 컴파일 결과: 기본 변형 133줄 / sin·cos 5개 / **텍스처 �
 
 ## 라이선스
 
-MIT License — 자세한 내용은 [LICENSE](LICENSE) 를 참고하세요.
+GNU General Public License v3.0 only (`GPL-3.0-only`) — 자세한 내용은 [LICENSE](LICENSE) 를 참고하세요. 저작권 및 저작자 고지는 [NOTICE](NOTICE.md) 를 참고하세요.
+
+원저작권자는 zzamjak입니다. 재배포본, 수정본, 파생물은 원저작권 고지를 유지하고 GPLv3 조건에 따라 소스 공개 및 동일 라이선스 배포 의무를 따라야 합니다. 독점/폐쇄 소스 소프트웨어로 재배포하는 것은 허용되지 않습니다.

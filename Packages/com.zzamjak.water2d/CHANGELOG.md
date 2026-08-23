@@ -5,6 +5,13 @@
 포맷은 [Keep a Changelog](https://keepachangelog.com/ko/1.1.0/)를 따르며,
 버전은 [Semantic Versioning](https://semver.org/lang/ko/)을 따릅니다.
 
+## [1.0.1] - 2026-08-23
+
+### Changed
+
+- 라이선스를 MIT에서 GNU General Public License v3.0 only (`GPL-3.0-only`)로 변경했습니다.
+- 원저작권자 `zzamjak` 고지와 GPLv3 기반 소스 공개/동일 라이선스 배포 의무를 명확히 문서화했습니다.
+
 ## [1.0.0] - 2026-08-23
 
 `Assets/Plugins/CAT/Water2D` 로 관리하던 2D 물 시뮬레이션 스크립트를 독립 UPM 패키지로 분리한 최초 릴리스입니다.

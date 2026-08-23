@@ -81,4 +81,6 @@ float y = water.SampleSurfaceHeight(0f);
 
 ## 라이선스
 
-MIT License — [LICENSE.md](LICENSE.md)
+GNU General Public License v3.0 only (`GPL-3.0-only`) — [LICENSE.md](LICENSE.md). 저작권 및 저작자 고지는 [NOTICE.md](NOTICE.md) 를 참고하세요.
+
+원저작권자는 zzamjak입니다. 재배포본, 수정본, 파생물은 원저작권 고지를 유지하고 GPLv3 조건에 따라 소스 공개 및 동일 라이선스 배포 의무를 따라야 합니다. 독점/폐쇄 소스 소프트웨어로 재배포하는 것은 허용되지 않습니다.
