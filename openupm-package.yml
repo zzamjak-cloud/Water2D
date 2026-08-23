@@ -1,0 +1,35 @@
+# OpenUPM 레지스트리 등록용 패키지 메타데이터
+#
+# OpenUPM 은 중앙 레포지토리에 이 메타데이터가 등록되어야 빌드 파이프라인이 동작합니다.
+# 아래 두 가지 방법 중 하나로 제출하세요. (GitHub 레포지토리가 public 이어야 합니다)
+#
+#   A. 웹 폼 (권장)
+#      https://openupm.com/packages/add/ 에서 레포 URL 을 입력하면 이 내용이 자동 채워집니다.
+#
+#   B. Pull Request
+#      https://github.com/openupm/openupm 을 fork 한 뒤
+#      data/packages/com.zzamjak.water2d.yml 로 이 파일을 추가해 PR 을 보냅니다.
+#
+# 등록 후에는 `v1.0.0` 형태의 git 태그를 푸시할 때마다 OpenUPM 이 자동으로 빌드·배포합니다.
+# 빌드 상태는 https://openupm.com/packages/com.zzamjak.water2d/ 에서 확인할 수 있습니다.
+
+name: com.zzamjak.water2d
+displayName: Water2D
+repoUrl: 'https://github.com/zzamjak-cloud/Water2D'
+parentRepoUrl: null
+# 패키지가 레포 루트가 아닌 Packages/com.zzamjak.water2d 에 있어도
+# OpenUPM 이 package.json 위치를 자동으로 탐색합니다.
+gitTagPrefix: 'v'
+gitTagIgnore: null
+minVersion: '1.0.0'
+imageUrl: null
+readme: 'main:Packages/com.zzamjak.water2d/README.md'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - 2d
+  - water
+  - shader
+  - ui
+  - mobile
+hunter: zzamjak-cloud

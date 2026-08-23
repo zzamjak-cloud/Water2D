@@ -1,0 +1,16 @@
+{
+    "name": "CAT.Water2D",
+    "rootNamespace": "CAT.Water2D",
+    "references": [
+        "UnityEngine.UI"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

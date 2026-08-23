@@ -1,0 +1,19 @@
+{
+    "name": "CAT.Water2D.Editor",
+    "rootNamespace": "CAT.Water2D",
+    "references": [
+        "CAT.Water2D",
+        "UnityEngine.UI"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
