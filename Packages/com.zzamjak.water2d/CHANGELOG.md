@@ -5,6 +5,12 @@
 포맷은 [Keep a Changelog](https://keepachangelog.com/ko/1.1.0/)를 따르며,
 버전은 [Semantic Versioning](https://semver.org/lang/ko/)을 따릅니다.
 
+## [1.0.2] - 2026-08-23
+
+### Fixed
+
+- 패키지 설치본의 `NOTICE.md` 에 대응하는 `.meta` 파일을 추가해, Unity가 읽기 전용 패키지 폴더에서 해당 에셋을 무시하던 오류를 수정했습니다.
+
 ## [1.0.1] - 2026-08-23
 
 ### Changed

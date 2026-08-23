@@ -1,7 +1,7 @@
 {
   "name": "com.zzamjak.water2d",
   "displayName": "Water2D",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "unity": "6000.0",
   "description": "버텍스 기반 2D 물 시뮬레이션 패키지입니다. 월드용 Water2D(MeshRenderer)와 UI Canvas용 UIWater2D(MaskableGraphic)가 동일한 시뮬 코어를 공유하며, 충돌 없이도 표면이 계속 출렁이는 지속 파동(Ambient Wave)을 제공합니다. 물리 기능(충돌·부력·포인터)은 opt-in 이고 스프링 시뮬은 이벤트로만 깨어나 정지 시 자동 슬립합니다. 물속 표현 셰이더는 텍스처 페치 없는 절차적 코스틱·굴절·거품으로 구성되어 모바일 최적화를 최우선 설계했습니다.",
   "documentationUrl": "https://github.com/zzamjak-cloud/Water2D",
