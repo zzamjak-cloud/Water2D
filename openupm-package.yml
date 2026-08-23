@@ -1,35 +1,43 @@
-# OpenUPM 레지스트리 등록용 패키지 메타데이터
+# OpenUPM 레지스트리 등록 메타데이터 (실제 제출본 사본)
 #
-# OpenUPM 은 중앙 레포지토리에 이 메타데이터가 등록되어야 빌드 파이프라인이 동작합니다.
-# 아래 두 가지 방법 중 하나로 제출하세요. (GitHub 레포지토리가 public 이어야 합니다)
+# 등록 PR: https://github.com/openupm/openupm/pull/6830  (merged 2026-08-23)
+# 업스트림 위치: openupm/openupm → data/packages/com.zzamjak.water2d.yml
+# 패키지 페이지: https://openupm.com/packages/com.zzamjak.water2d/
 #
-#   A. 웹 폼 (권장)
-#      https://openupm.com/packages/add/ 에서 레포 URL 을 입력하면 이 내용이 자동 채워집니다.
+# 아래는 업스트림에 병합된 내용과 동일한 사본입니다 (참고용).
+# 등록 정보(설명·토픽 등)를 고치려면 업스트림에 PR 을 다시 보내야 합니다.
+# 패키지 버전 배포는 vX.Y.Z 태그 푸시만으로 자동 처리됩니다.
 #
-#   B. Pull Request
-#      https://github.com/openupm/openupm 을 fork 한 뒤
-#      data/packages/com.zzamjak.water2d.yml 로 이 파일을 추가해 PR 을 보냅니다.
-#
-# 등록 후에는 `v1.0.0` 형태의 git 태그를 푸시할 때마다 OpenUPM 이 자동으로 빌드·배포합니다.
-# 빌드 상태는 https://openupm.com/packages/com.zzamjak.water2d/ 에서 확인할 수 있습니다.
+# 주의: topics 는 OpenUPM 이 정한 목록(data/topics.yml)의 slug 만 허용됩니다.
+# gitTagPrefix 는 'v' 접두사를 OpenUPM 이 자동 처리하므로 빈 값입니다.
 
 name: com.zzamjak.water2d
+aliases: []
 displayName: Water2D
+description: >-
+  Vertex-based 2D water simulation for Unity. Water2D renders in world space
+  (MeshRenderer) and UIWater2D renders inside a UI Canvas (MaskableGraphic),
+  both sharing one simulation core so behavior and values stay identical. The
+  surface keeps rippling without any collision through an analytic ambient wave
+  (stacked sines plus value noise) whose strength, frequency and randomness are
+  exposed as numbers. Physics is opt-in: collision splash, buoyancy and pointer
+  input are off by default and the collider is disabled while they all are, and
+  the spring simulation only wakes on events and sleeps automatically once the
+  surface settles. The underwater shader uses procedural caustics, refraction
+  and foam with no texture fetch by default, keyword-stripped features and no
+  branching, for a mobile-first cost profile. UIWater2D supports Mask, RectMask2D
+  and CanvasGroup alpha through standard UGUI mechanisms.
 repoUrl: 'https://github.com/zzamjak-cloud/Water2D'
+trackingMode: git
 parentRepoUrl: null
-# 패키지가 레포 루트가 아닌 Packages/com.zzamjak.water2d 에 있어도
-# OpenUPM 이 package.json 위치를 자동으로 탐색합니다.
-gitTagPrefix: 'v'
-gitTagIgnore: null
-minVersion: '1.0.0'
-imageUrl: null
-readme: 'main:Packages/com.zzamjak.water2d/README.md'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - 2d
-  - water
-  - shader
-  - ui
-  - mobile
+  - particles-and-effects
+  - gui
 hunter: zzamjak-cloud
+gitTagPrefix: ''
+gitTagIgnore: ''
+readme: 'main:README.md'
+createdAt: 1787478637650

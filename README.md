@@ -83,17 +83,23 @@ https://github.com/zzamjak-cloud/Water2D.git?path=/Packages/com.zzamjak.water2d#
 `Window > Package Manager > Water2D > Samples > Test Scene > Import` 를 누르면
 `Assets/Samples/Water2D/1.0.0/Test Scene/` 에 테스트 씬과 성능 점검용 HUD 가 복사됩니다.
 
-### OpenUPM 레지스트리 등록 (배포자용)
+### OpenUPM 레지스트리 (등록 완료)
 
-패키지를 OpenUPM 에 올리려면 중앙 레포지토리에 메타데이터를 한 번 등록해야 합니다.
-등록에 필요한 내용은 [`openupm-package.yml`](openupm-package.yml) 에 준비되어 있습니다.
+이 패키지는 OpenUPM 에 등록되어 있습니다.
 
-1. 이 레포지토리를 GitHub 에 **public** 으로 푸시합니다.
-2. `v1.0.0` 태그를 푸시합니다. (`git tag v1.0.0 && git push origin v1.0.0`)
-3. https://openupm.com/packages/add/ 에 레포 URL 을 입력해 제출합니다.
-   (또는 [openupm/openupm](https://github.com/openupm/openupm) 을 fork 해
-   `data/packages/com.zzamjak.water2d.yml` 로 추가하고 PR 을 보냅니다)
-4. 등록 이후에는 `vX.Y.Z` 태그를 푸시할 때마다 OpenUPM 이 자동으로 빌드·배포합니다.
+- 패키지 페이지: https://openupm.com/packages/com.zzamjak.water2d/
+- 등록 PR: [openupm/openupm#6830](https://github.com/openupm/openupm/pull/6830) (merged)
+- 등록 메타데이터: [`openupm-package.yml`](openupm-package.yml) (제출본 사본)
+
+**새 버전 배포 절차**
+
+1. `Packages/com.zzamjak.water2d/package.json` 의 `version` 을 올립니다.
+2. `CHANGELOG.md` 에 변경 사항을 기록합니다.
+3. 커밋 후 `vX.Y.Z` 태그를 푸시하면 OpenUPM 이 자동으로 빌드·배포합니다.
+
+```bash
+git tag v1.1.0 && git push origin v1.1.0
+```
 
 스코프는 `com.zzamjak` 이므로 같은 스코프의 다른 패키지(CATSprite 등)와 스코프 레지스트리 설정을 공유합니다.
 
